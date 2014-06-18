@@ -42,11 +42,13 @@ var maskOpts = {
                                    autoUnmask: true
                                }
                            };
+                           
 $('#P1_TEST2').inputmask("+[####################]", maskOpts.inputmask).attr("placeholder", $('#P1_TEST2').inputmask("getemptymask"));
 
 Инициализация плагина с маской из файла:
 
 var listRU = $.masksSort($.masksLoad("phones-ru.json"), ['#'], /[0-9]|#/, "mask");
+
 var optsRU = {
                                inputmask: {
                                    definitions: {
@@ -64,6 +66,7 @@ var optsRU = {
                                list: listRU,
                                listKey: "mask"
                            };
+                           
 $('#P1_TEST2').inputmasks(optsRU);
 
 P.S. Для работы jquery плагина необходимы следующие js файлы:
