@@ -69,7 +69,9 @@ $('#P1_TEST2').inputmasks(optsRU);
 P.S. Для работы jquery плагина необходимы следующие js файлы:
 
 apex.jquery.bind-first-0.1.min.js
+
 apex.jquery.inputmask-multi.js
+
 apex.jquery.inputmask.js
 
 Ссылки
